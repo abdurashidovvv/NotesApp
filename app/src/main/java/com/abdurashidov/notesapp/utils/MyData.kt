@@ -1,0 +1,1 @@
+package com.abdurashidov.notesapp.utilsimport com.abdurashidov.notesapp.models.Noteobject MyData {    var note: Note?=null}

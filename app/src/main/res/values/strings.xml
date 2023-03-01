@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">NotesApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="info_text">This app allows you to keep the notes you need for yourself.</string>
+    <string name="creator">Current version: 1.0.0 \nCreator: Abdurashidov</string>
+</resources>

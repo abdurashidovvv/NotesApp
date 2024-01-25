@@ -43,11 +43,11 @@ class HomeViewModel @Inject constructor(
             .launchIn(viewModelScope)
     }
 
-    private fun deleteNote(noteId: Long) = viewModelScope.launch {
+     fun deleteNote(noteId: Long) = viewModelScope.launch {
         deleteNoteUseCase(noteId)
     }
 
-    private fun onBookmarkChange(note: Note) {
+     fun onBookmarkChange(note: Note) {
         viewModelScope.launch {
             updateNoteUseCase(note.copy(isBookmarked = !note.isBookmarked))
         }
